@@ -1,0 +1,15 @@
+{
+  "name": "cypress-e2e",
+  "version": "1.0.0",
+  "description": "Automation Project to iconstruye",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "cypress:open": "cypress open"
+  },
+  "author": "Jer",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.8.1"
+  }
+}
