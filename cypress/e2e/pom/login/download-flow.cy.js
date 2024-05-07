@@ -10,7 +10,7 @@ describe('Description', () => {
     it('Login correct', () => {
         loginPage.typeUsername('emoreno');
         loginPage.typeCompany('sodexo');
-        loginPage.typePassword('rrtfpkvo');
+        loginPage.typePassword('rrtfpkvo123123');
         loginPage.clickLogin();
         cy.screenshot('after_login');
         cy.wait(5000, { timeout: 30000 });
